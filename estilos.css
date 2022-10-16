@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    overflow: hidden;
+}
+header{
+    height: 100px;
+    width: auto;
+    background: aqua;
+}
+.menu-lateral{
+    margin-top: 10px;
+    width: 200px ;
+    height: Auto;
+    background-color: red;
+}
+.imagen-grande{
+    margin-left:15%;
+    width: auto;
+    height: 30%;
+    background-color: yellow;
+}
+.texto{
+    margin-left: 50%;
+    width: auto ;
+    height: 30%;
+    background-color: green;
+}
