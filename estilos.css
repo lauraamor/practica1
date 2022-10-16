@@ -2,21 +2,44 @@
     padding: 0;
     overflow: hidden;
 }
-header{
+header {
     height: 100px;
     width: auto;
-    background: aqua;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
 }
-.menu-lateral{
+.container{
     margin-top: 10px;
-    width: 200px ;
-    height: Auto;
-    background-color: red;
+}
+nav{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    overflow:auto;
+}
+nav ul{
+    list-style: none;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-bottom: 0px;
+    padding-left: 0;
+}
+.miniatura{
+    display: block;
+    margin-top: 10px;
+    width: 150px;
+    height: 180px;
+    transition: 1s;
+    filter: grayscale(100%);
+}
+.miniatura:hover{
+    filter: grayscale(0%);
 }
 .imagen-grande{
     margin-left:15%;
     width: auto;
-    height: 30%;
+    height: 50%;
     background-color: yellow;
 }
 .texto{
