@@ -50,6 +50,8 @@ nav ul{
 }
 .cuadro{
     zoom: 70%;
+    width: 800px;
+    height: 900px;
 }
 .texto{
     text-align: center;
