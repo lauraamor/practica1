@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilos.css">
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
     <title>Cuadros de Velazquez</title>
 </head>
 <body>
@@ -16,24 +16,56 @@
     <div class="menu">
         <nav>
             <ul>
-                <li><a href="index.html"><img class="miniatura" src="/img/breda-mini.jpg"></a></li>
-                <li><a href="venus.html"><img class="miniatura" src="/img/venus-mini.jpg"></a></li>
-                <li><a href="meninas.html"><img class="miniatura" src="/img/meninas-mini.jpg"></a></li>
-                <li><a href="fragua.html"><img class="miniatura" src="/img/vulcano-mini.jpg"></a></li>
-                <li><a href="papa.html"><img class="miniatura" src="/img/inocencio-mini.jpg"></a></li>
+                <li><img class="miniatura" onclick="breda_menu()" src="/img/breda-mini.jpg"></li>
+                <li><img class="miniatura" onclick="venus_menu()" src="/img/venus-mini.jpg"></li>
+                <li><img class="miniatura" onclick="meninas_menu()" src="/img/meninas-mini.jpg"></li>
+                <li><img class="miniatura" onclick="vulcano_menu()" src="/img/vulcano-mini.jpg"></li>
+                <li><img class="miniatura" onclick="inocencio_menu()" src="/img/inocencio-mini.jpg"></li>
             </ul>
         </nav>
     </div>
     <div class="container">
-        <div class="imagen-grande">
-            <div id="breda" onclick="grande_breda()"></div>
-        </div>
+            <div class="imagen-grande">
+                <div class="breda"></div>
+                <div class="venus"></div>
+                <div class="meninas"></div>
+                <div class="vulcano"></div>
+                <div class="inocencio"></div>
+            </div>
         <div class="texto">
-            <div>
+            <div class="info_breda">
                 <p class="titlo_c">LA RENDICIÓN DE BREDA</p>
                 <p class="año">1634-35</p>
                 <p class="precio_c">380€</p>
                 <p class="sin-negrita">Réplica del cuadro en colores originales y tamaño 150x80cm</p>
+                <button class="precio_c">COMPRAR</button>
+            </div>
+            <div class="info_venus">
+                <p class="titlo_c">VENUS DEL ESPEJO</p>
+                <p class="año">1644-1648</p>
+                <p class="precio_c">432€</p>
+                <p class="sin-negrita">Réplica del cuadro en colores originales y tamaño 230 x 150 cm</p>
+                <button class="precio_c">COMPRAR</button>
+            </div>
+            <div class="info_meninas">
+                <p class="titlo_c">LAS MENINAS</p>
+                <p class="año">1616-1648</p>
+                <p class="precio_c">1250€</p>
+                <p class="sin-negrita">Réplica del cuadro en colores originales y tamaño 400 x 350 cm</p>
+                <button class="precio_c">COMPRAR</button>
+            </div>
+            <div class="info_vulcano">
+                <p class="titlo_c">LA FRAGUA DE VULCANO</p>
+                <p class="año">1630</p>
+                <p class="precio_c">375€</p>
+                <p class="sin-negrita">Réplica del cuadro en colores originales y tamaño 170 x 120 cm</p>
+                <button class="precio_c">COMPRAR</button>
+            </div>
+            <div class="info_inocencio">
+                <p class="titlo_c">EL PAPA INOCENCIO X</p>
+                <p class="año">1650</p>
+                <p class="precio_c">280€</p>
+                <p class="sin-negrita">Réplica del cuadro en colores originales y tamaño 80 x 140 cm</p>
                 <button class="precio_c">COMPRAR</button>
             </div>
         </div>

@@ -55,20 +55,26 @@ nav ul{
     background-size: cover;
     background-position: center;
 }
-#breda{
+.breda{
     background-image: url("./img/breda.jpg");
+    z-index: 100;
+    zoom: 70%;
 }
-#venus{
+.venus{
     background-image: url("./img/venus.jpg");
+    zoom: 70%;
 }
-#meninas{
+.meninas{
     background-image: url("./img/meninas.jpg");
+    zoom: 70%;
 }
-#vulcano{
+.vulcano{
     background-image: url("./img/vulcano.jpg");
+    zoom: 70%;
 }
-#inocencio{
+.inocencio{
     background-image: url("./img/inocencio.jpg");
+    zoom: 70%;
 }
 .texto{
     position: relative;
@@ -84,6 +90,7 @@ nav ul{
     height: auto;
     bottom: 0;
     left: 20px;
+    background-color: white;
 }
 .titlo_c{
     font-family: 'Montserrat', sans-serif;
@@ -112,4 +119,7 @@ button{
 }
 button:hover{
     background-color:#04c5c0 ;
+}
+.info_breda{
+    z-index: 100;
 }
