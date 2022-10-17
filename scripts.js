@@ -10,6 +10,6 @@ function grande_meninas() {
 function grande_vulcano() {
     open("/img/vulcano.jpg");
 }
-function grande_inocenci0(){
+function grande_inocencio() {
     open("/img/inocencio.jpg");
 }
