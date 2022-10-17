@@ -1,6 +1,6 @@
 # Práctica Cuadros de Velázquez
 ## Creación de entorno en local
-Lo primero que hice fue crear la estructura de manera ==**LOCAL**==
+Lo primero que hice fue crear la estructura de manera ==LOCAL==
 Cree una carpeta llamada práctica 1 con los siguientes documentos:
 1. Con cinco documentos HTML llamados:
    1.1 ``` index.html ```
