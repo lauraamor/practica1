@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="scripts.js"></script>
+    <title>Cuadros de Velazquez</title>
+</head>
+<body>
+    <header>
+        <p class="cabecera"> Cuadros de Velazquez</p>
+    </header>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><img class="miniatura" onclick="breda_menu()" src="/img/breda-mini.jpg"></li>
+                <li><img class="miniatura" onclick="venus_menu()" src="/img/venus-mini.jpg"></li>
+                <li><img class="miniatura" onclick="meninas_menu()" src="/img/meninas-mini.jpg"></li>
+                <li><img class="miniatura" onclick="vulcano_menu()" src="/img/vulcano-mini.jpg"></li>
+                <li><img class="miniatura" onclick="inocencio_menu()" src="/img/inocencio-mini.jpg"></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="imagen-grande">
+            <div class="venus" onclick="grande_venus"></div>
+        </div>
+        <div class="texto">
+            <div class="info_venus">
+                <p class="titlo_c">VENUS DEL ESPEJO</p>
+                <p class="año">1644-1648</p>
+                <p class="precio_c">432€</p>
+                <p class="sin-negrita">Réplica del cuadro en colores originales y tamaño 230 x 150 cm</p>
+                <button class="precio_c">COMPRAR</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
