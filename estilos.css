@@ -11,7 +11,7 @@ header {
     margin: 0;
     padding:0;
 }
-.container{
+.menu{
     margin-top: 5px;
 }
 nav{
@@ -19,7 +19,6 @@ nav{
     width: 200px;
     height: 100%;
     overflow:auto;
-    padding: 0;
 }
 nav ul{
     list-style: none;
@@ -38,35 +37,74 @@ nav ul{
 .miniatura:hover{
     filter: grayscale(0%);
 }
-.imagenes{
-    position: absolute;
-    text-align: center;
-    margin-left: 203px;
-    width: 50%;
+.container{
+    margin-left: 200px;
+    width: auto;
 }
 .imagen-grande{
-    width: 500px;
-    height: 600px;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 800px;
 }
-.cuadro{
+.imagen-grande div{
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.breda{
+    background-image: url("./img/breda.jpg");
+    z-index: 100;
     zoom: 70%;
-    width: 800px;
-    height: 900px;
+}
+.venus{
+    background-image: url("./img/venus.jpg");
+    zoom: 70%;
+}
+.meninas{
+    background-image: url("./img/meninas.jpg");
+    zoom: 70%;
+}
+.vulcano{
+    background-image: url("./img/vulcano.jpg");
+    zoom: 70%;
+}
+.inocencio{
+    background-image: url("./img/inocencio.jpg");
+    zoom: 70%;
 }
 .texto{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 800px;
     text-align: center;
-    margin-left: 60%;
-    margin-top: 15%;
-    width: 560px;
+}
+.texto div{
+    position: absolute;
+    float: left;
+    text-align: center;
+    height: auto;
+    bottom: 0;
+    left: 20px;
+    background-color: white;
 }
 .titlo_c{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: xx-large;
 }
+.año{
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
 .sin-negrita{
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
+    text-align: left;
 }
 .precio_c{
     font-family: 'Montserrat', sans-serif;
@@ -81,4 +119,7 @@ button{
 }
 button:hover{
     background-color:#04c5c0 ;
+}
+.info_breda{
+    z-index: 100;
 }
